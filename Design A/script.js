@@ -54,15 +54,15 @@ showtable(array);
 //function to search for a class
 var newArray = [];
 
-document.getElementById("search").addEventListener("click", function(){
-    var search= this.ariaValueMax.toUpperCase();
-
+document.getElementById("search").addEventListener("keyup", function(){
+    var search = this.value.toLowerCase(); // Corrected this line
+    
     newArray = array.filter(function(val){
-        if(val.className.includes(search) || val.classCode.includes(search) || val.professor.includes(search) || val.classroom.includes(search)){
-            var temp = {className : val.className, classCode : val.classCode, prereqs : val.prereqs, professor : val.professor, classroom : val.classroom};
-            return temp;
-        }
-    })
+        return val.className.toLowerCase().includes(search) || 
+               val.classCode.toLowerCase().includes(search) || 
+               val.professor.toLowerCase().includes(search) || 
+               val.classroom.toLowerCase().includes(search);
+    });
 
     showtable(newArray);
-})  
+});
