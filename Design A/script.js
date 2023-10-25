@@ -47,7 +47,16 @@ var array = [
         time: 'Online',
         classroom: 'Online',
         links: 'Syllabus: link, Textbook: link'
-    }
+    },
+    {
+        className: 'Human-Computer Interaction',
+        classCode: 'CEN4721',
+        prereqs: 'COP3530',
+        professor: 'Sharon Lynn Chu Yew Yee',
+        time: 'T 10:40 AM - 11:30 AM, R 10:40 - 12:35 PM',
+        classroom: 'LIT 0121, LIT 0113',
+        links: 'Syllabus: link, Textbook: link'
+    },
 ]
 
 //function to create a table
