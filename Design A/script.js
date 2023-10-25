@@ -13,22 +13,13 @@ document.querySelector('#header2').innerHTML = message2
 //need to add more data
 var array = [
     {
-        className: 'Programming Fundamentals 1',
-        classCode: 'COP3502',
-        prereqs: 'MAC2311',
-        professor: 'Amanpreet Kapoor and Sanethia Thomas',
-        time: 'TR 10:40 AM - 11:30 AM, W 12:50 PM - 2:45 PM',
-        classroom: 'CAR 0100, CSE E309',
-        links: 'Syllabus: link, Textbook: link'
-    },
-    {
-        className: 'Programming Fundamentals 1',
-        classCode: 'COP3502',
-        prereqs: 'MAC2311',
-        professor: 'Daniel Delgado',
-        time: 'TR 10:40 AM - 11:30 AM, T 5:10 PM - 7:05 PM',
-        classroom: 'ROG 0129, CSE E312',
-        links: 'Syllabus: link, Textbook: link'
+        className: 'Human-Computer Interaction',
+        classCode: 'CEN4721',
+        prereqs: 'COP3530',
+        professor: 'Sharon Lynn Chu Yew Yee',
+        time: 'T 10:40 AM - 11:30 AM, R 10:40 - 12:35 PM',
+        classroom: 'LIT 0121, LIT 0113',
+        links: '<a href=\'https://www.cise.ufl.edu/wp-content/uploads/gravity_forms/3-0208f39d852828a4bae9d9abad5262af/2023/08/cen-4721_fall2023.pdf\'>Syllabus</a>, <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11130&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Introduction to Literature',
@@ -37,7 +28,7 @@ var array = [
         professor: 'Benjamin Hebblethwaite',
         time: 'Online',
         classroom: 'Online',
-        links: 'Syllabus: link, Textbook: link'
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/14946.pdf\'>Syllabus</a>, <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14946&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Introduction to Literature',
@@ -46,16 +37,43 @@ var array = [
         professor: 'Galina Rylkova',
         time: 'Online',
         classroom: 'Online',
-        links: 'Syllabus: link, Textbook: link'
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/23759.pdf\'>Syllabus</a>, <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=23759&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
-        className: 'Human-Computer Interaction',
-        classCode: 'CEN4721',
+        className: 'Natural Language Processing',
+        classCode: 'CAP4641',
         prereqs: 'COP3530',
-        professor: 'Sharon Lynn Chu Yew Yee',
-        time: 'T 10:40 AM - 11:30 AM, R 10:40 - 12:35 PM',
-        classroom: 'LIT 0121, LIT 0113',
-        links: 'Syllabus: link, Textbook: link'
+        professor: 'Bonnie Dorr',
+        time: 'T 3:00 PM - 6:00 PM',
+        classroom: 'MCCB G086',
+        links: '<a href=\'https://www.cise.ufl.edu/wp-content/uploads/gravity_forms/3-0208f39d852828a4bae9d9abad5262af/2023/09/cap-4641_fall2023.pdf\'>Syllabus</a>, <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=25987&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Programming Fundamentals 1',
+        classCode: 'COP3502',
+        prereqs: 'MAC2311',
+        professor: 'Amanpreet Kapoor and Sanethia Thomas',
+        time: 'TR 10:40 AM - 11:30 AM, W 12:50 PM - 2:45 PM',
+        classroom: 'CAR 0100, CSE E309',
+        links: '<a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11942&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Programming Fundamentals 1',
+        classCode: 'COP3502',
+        prereqs: 'MAC2311',
+        professor: 'Daniel Delgado',
+        time: 'TR 10:40 AM - 11:30 AM, T 5:10 PM - 7:05 PM',
+        classroom: 'ROG 0129, CSE E312',
+        links: '<a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=29775&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Programming Language Concepts',
+        classCode: 'COP4020',
+        prereqs: 'COP3530',
+        professor: 'Beverly Sanders',
+        time: 'T 3:00 PM - 4:55 PM, R 4:05 PM - 4:55 PM',
+        classroom: 'NRN 1020',
+        links: '<a href=\'https://www.cise.ufl.edu/wp-content/uploads/gravity_forms/3-0208f39d852828a4bae9d9abad5262af/2023/08/cop-4020_fall2023.pdf\'>Syllabus</a>, <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=21344&YEAR=23&TERM=8\'>Textbooks</a>,'
     },
 ]
 
