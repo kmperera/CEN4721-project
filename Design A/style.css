@@ -1,7 +1,8 @@
 body {
-    background: white; 
+    background: #f5f5e1;
     color: #000000;
     padding: 0 24px;
+    padding-bottom: 200px;
     margin: 0;
     height: 100vh;
     display: block;
@@ -17,16 +18,20 @@ body {
 
   h1 {
     position: absolute;
-    font: 32px open-sans;
-    left: 50px;
-    top: -100px;
+      color: rgb(171, 112, 171);
+    font: 32px Garamond;
+    left: 25px;
+    top: -80px;
   }
 
   h2 {
     position: absolute;
-    font: 32px open-sans;
-    left: 600px;
-    top: -100px;
+    color: rgb(171, 112, 171);
+    font: 50px Garamond;
+    left: 500px;
+    top: -80px;
   }
+
+
 
   
