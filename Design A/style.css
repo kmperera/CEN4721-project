@@ -34,13 +34,14 @@ body {
   }
 
   table {
-      table-layout: fixed;
+      width: 1450px;
       padding-left: 40px;
       padding-right: 40px;
       border-collapse: collapse;
   }
 
   td {
+      table-layout: fixed;
       padding: 9px;
       border: 2px solid;
       border-color: rgb(171, 112, 171);
@@ -50,6 +51,7 @@ body {
   }
 
   th {
+      position: initial;
       font: 20px Garamond;
       padding-top: 20px;
       top: 100px;
