@@ -19,7 +19,7 @@ body {
 
   h1 {
     position: absolute;
-    color: rgb(171, 112, 171);
+    color: rgb(28, 50, 128);
     font: 32px Garamond;
     left: 25px;
     top: -80px;
@@ -27,7 +27,7 @@ body {
 
   h2 {
     position: absolute;
-    color: rgb(171, 112, 171);
+    color: rgb(28, 50, 128);
     font: 50px Garamond;
     left: 500px;
     top: -80px;

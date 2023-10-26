@@ -13,6 +13,33 @@ document.querySelector('#header2').innerHTML = message2
 //need to add more data
 var array = [
     {
+        className: 'Abnormal Psychology',
+        classCode: 'CLP3144',
+        prereqs: 'PSY2012',
+        professor: 'Brittany Bridges',
+        time: 'W 5:10 PM - 8:10 PM',
+        classroom: 'PSY 0130',
+        links: '<a href=\'https://psych.ufl.edu/wp-content/uploads/sites/75/CLP3144-4446-Fall2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=10842&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Abnormal Psychology',
+        classCode: 'CLP3144',
+        prereqs: 'PSY2012',
+        professor: 'Feihong Wang',
+        time: 'Online',
+        classroom: 'Online',
+        links: '<a href=\'https://psych.ufl.edu/wp-content/uploads/sites/75/CLP3144-19F3-Fall2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=10825&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'American Federal Government',
+        classCode: 'POS2041',
+        prereqs: 'None',
+        professor: 'Beth Rosenson',
+        time: 'T 11:45 AM - 1:40 PM, R 12:50 PM - 1:40 PM',
+        classroom: 'MAT0151',
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/25712.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=25712&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
         className: 'Analytic Geometry and Calculus 2',
         classCode: 'MAC2312',
         prereqs: 'MAC2311/MAC3472',
@@ -56,6 +83,15 @@ var array = [
         time: 'Online',
         classroom: 'Online',
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/11463.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11463&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Developmental Psychology',
+        classCode: 'DEP3053',
+        prereqs: 'PSY2012',
+        professor: 'Marina Klimenko',
+        time: 'Online',
+        classroom: 'Online',
+        links: '<a href=\'https://psych.ufl.edu/wp-content/uploads/sites/75/DEP3053_1H98_Fall2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=12022&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Discovering the Universe',
@@ -112,11 +148,20 @@ var array = [
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/10429.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=10429&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
+        className: 'General Psychology',
+        classCode: 'PSY2012',
+        prereqs: 'None',
+        professor: 'Abhay Alaukik',
+        time: 'MWF 3:00 PM - 3:50 PM',
+        classroom: 'PSY 0130',
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/17204.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=17204&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
         className: 'Human-Computer Interaction',
         classCode: 'CEN4721',
         prereqs: 'COP3530',
         professor: 'Sharon Lynn Chu Yew Yee',
-        time: 'T 10:40 AM - 11:30 AM, R 10:40 - 12:35 PM',
+        time: 'T 10:40 AM - 11:30 AM, R 10:40 AM - 12:35 PM',
         classroom: 'LIT 0121, LIT 0113',
         links: '<a href=\'https://www.cise.ufl.edu/wp-content/uploads/gravity_forms/3-0208f39d852828a4bae9d9abad5262af/2023/08/cen-4721_fall2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11130&YEAR=23&TERM=8\'>Textbooks</a>'
     },
@@ -211,6 +256,15 @@ var array = [
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/16278.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=16184&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
+        className: 'Principles of Sociology',
+        classCode: 'SYG2000',
+        prereqs: 'None',
+        professor: 'William Marsiglio',
+        time: 'T 10:40 AM - 11:30 AM, R 10:40 AM - 12:35 PM',
+        classroom: 'CSE A101, MCCA G186',
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/23636.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=23636&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
         className: 'Programming Language Concepts',
         classCode: 'COP4020',
         prereqs: 'COP3530',
@@ -218,6 +272,15 @@ var array = [
         time: 'T 3:00 PM - 4:55 PM, R 4:05 PM - 4:55 PM',
         classroom: 'NRN 1020',
         links: '<a href=\'https://www.cise.ufl.edu/wp-content/uploads/gravity_forms/3-0208f39d852828a4bae9d9abad5262af/2023/08/cop-4020_fall2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=21344&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Theatre Appreciation',
+        classCode: 'THE2000',
+        prereqs: 'None',
+        professor: 'Charlie Mitchell',
+        time: 'MW 1:55 PM - 2:45 PM, F 12:50 PM - 1:40 PM',
+        classroom: 'TUR L007, MCCA G186',
+        links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/17838.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=17838&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'United States Since 1877',
@@ -233,9 +296,18 @@ var array = [
         classCode: 'AMH2020',
         prereqs: 'None',
         professor: 'Licinio Miranda',
-        time: 'T 10:40 - 11:30 AM, R 10:40 AM - 12:35 PM',
+        time: 'T 10:40 AM - 11:30 AM, R 10:40 AM - 12:35 PM',
         classroom: 'FLI 0111',
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/28806.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=28806&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Women and Politics in Africa',
+        classCode: 'AFS4330',
+        prereqs: 'None',
+        professor: 'Agness Leslie',
+        time: 'M 1:55 PM - 2:45 PM, W 1:55 PM - 3:50 PM',
+        classroom: 'TUR 2333',
+        links: '<a href=\'https://africa.ufl.edu/wp-content/uploads/sites/167/WOMEN-AND-POLITICS-IN-AFRICA-FALL-2023.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=27171&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Writing in the Law',
