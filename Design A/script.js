@@ -42,7 +42,7 @@ var array = [
     {
         className: 'Analytic Geometry and Calculus 2',
         classCode: 'MAC2312',
-        prereqs: 'MAC2311/MAC3472',
+        prereqs: 'MAC2311 or MAC3472',
         professor: 'Stephen Adams, Kwai-Lee Chui',
         time: 'MWF 3:00 PM - 3:50 PM, T 11:45 AM - 12:35 PM',
         classroom: 'NRN 1020, LIT 0023',
@@ -85,6 +85,24 @@ var array = [
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/11463.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11463&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
+        className: 'Computational Linear Algebra',
+        classCode: 'MAS3114',
+        prereqs: 'MAC2312 and (MAC2512 or MAC3473)',
+        professor: 'Shu Huang, Lezhi Liu',
+        time: 'Online',
+        classroom: 'Online',
+        links: '<a href=\'https://people.clas.ufl.edu/huang/files/MAS3114-Syllabus.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14604&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Computational Linear Algebra',
+        classCode: 'MAS3114',
+        prereqs: 'MAC2312 and (MAC2512 or MAC3473)',
+        professor: 'Shu Huang, Dixi Wang',
+        time: 'MWF 11:45 AM - 12:35 PM',
+        classroom: 'TUR L007',
+        links: '<a href=\'https://people.clas.ufl.edu/huang/files/MAS3114-Syllabus.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14606&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
         className: 'Developmental Psychology',
         classCode: 'DEP3053',
         prereqs: 'PSY2012',
@@ -110,6 +128,69 @@ var array = [
         time: 'MWF 10:40 AM - 11:30 AM',
         classroom: 'WEIM 1064',
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/11586.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=11586&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Elementary Differential Equations',
+        classCode: 'MAP2302',
+        prereqs: 'MAC2312 or MAC2512 or MAC3473',
+        professor: 'Yuli Rudyak, Carol Demas',
+        time: 'MWF 12:50 PM - 1:40 PM',
+        classroom: 'LIT 0109',
+        links: '<a href=\'https://people.clas.ufl.edu/demasc/files/Spring23SyllabusMAP2302.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14762&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Elementary Differential Equations',
+        classCode: 'MAP2302',
+        prereqs: 'MAC2312 or MAC2512 or MAC3473',
+        professor: 'Hayden Hunter, Chirantha Piyamal Bandara',
+        time: 'Online',
+        classroom: 'Online',
+        links: '<a href=\'https://people.clas.ufl.edu/haydenhunter/files/Fall23SyllabusMAP2302.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14763&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Elementary Differential Equations',
+        classCode: 'MAP2302',
+        prereqs: 'MAC2312 or MAC2512 or MAC3473',
+        professor: 'Miklos Bona',
+        time: 'MWF 3:00 PM - 3:50 PM',
+        classroom: 'LIT 0101',
+        links: '<a href=\'https://math.ufl.edu/wp-content/uploads/sites/124/Bona-MAP-2302.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14765&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Elementary Differential Equations',
+        classCode: 'MAP2302',
+        prereqs: 'MAC2312 or MAC2512 or MAC3473',
+        professor: 'Calistus Ngonghala, Carol Demas',
+        time: 'MWF 1:55 PM - 2:45 PM',
+        classroom: 'LIT 0109',
+        links: '<a href=\'https://people.clas.ufl.edu/calistusnn/files/Fall2023_MAP2302_Syllabus.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14766&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Elementary Differential Equations',
+        classCode: 'MAP2302',
+        prereqs: 'MAC2312 or MAC2512 or MAC3473',
+        professor: 'Carol Demas',
+        time: 'MWF 10:40 AM - 11:30 AM',
+        classroom: 'LIT 0101',
+        links: '<a href=\'https://people.clas.ufl.edu/calistusnn/files/Fall2023_MAP2302_Syllabus.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=14767&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Engineering Leadership',
+        classCode: 'EGS4038',
+        prereqs: 'junior or senior standing',
+        professor: 'William McElroy',
+        time: 'M 9:35 AM - 11:30 AM',
+        classroom: 'WERT 370',
+        links: '<a href=\'https://www.eng.ufl.edu/leadership/wp-content/uploads/sites/7/2022/01/EGS4038-Engineering-Leadership-UG-Course-Syllabus-Spring-2022.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=12967&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Engineering Leadership',
+        classCode: 'EGS4038',
+        prereqs: 'junior or senior standing',
+        professor: 'William McElroy',
+        time: 'M 12:50 PM - 2:45 PM',
+        classroom: 'WERT 370',
+        links: '<a href=\'https://www.eng.ufl.edu/leadership/wp-content/uploads/sites/7/2022/01/EGS4038-Engineering-Leadership-UG-Course-Syllabus-Spring-2022.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=12967&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Experiencing Music',
@@ -191,6 +272,33 @@ var array = [
         time: 'Online',
         classroom: 'Online',
         links: '<a href=\'https://undergrad.aa.ufl.edu/media/undergradaaufledu/gen-ed/ge-core-syllabi/core-syllabi-2023/fall-2023/23759.pdf\'>Syllabus,</a> <a href=\'http://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=23759&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Introduction to Numerical Analysis',
+        classCode: 'MAD4401',
+        prereqs: 'MAS3114 or MAS4105',
+        professor: 'Jason Harrington, Chi Ding',
+        time: 'MWF 11:45 AM - 12:35 PM',
+        classroom: 'FAC 0127',
+        links: '<a href=\'https://people.clas.ufl.edu/mathguy/courses/mad-4401/\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=15032&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Introduction to Numerical Analysis',
+        classCode: 'MAD4401',
+        prereqs: 'MAS3114 or MAS4105',
+        professor: 'Nan Jiang',
+        time: 'MWF 12:50 PM - 1:40 PM',
+        classroom: 'FAB 0105',
+        links: '<a href=\'https://people.clas.ufl.edu/jiangn/files/MAD4401_Syllabus-1.pdf\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=15033&YEAR=23&TERM=8\'>Textbooks</a>'
+    },
+    {
+        className: 'Introduction to Numerical Analysis',
+        classCode: 'MAD4401',
+        prereqs: 'MAS3114 or MAS4105',
+        professor: 'Tracy Stepien, Gillian Carr',
+        time: 'MWF 1:55 PM - 2:45 PM',
+        classroom: 'FAC 0127',
+        links: '<a href=\'https://ucd65341690d5f855eaa126ced6a.dl.dropboxusercontent.com/cd/0/inline2/CGTp5ingizqh65P16DokTnnZD3O_XKgBWyrJoUTx2lkovJlz9QghnDKp0s4O4EobYwtXRU5rawg6XmQOXDx24Gu2PMQwImQiFV_nAutwfE5452cebhYCPp9uS90nF8uAbpNGw3fqjI8IX8yLNOYjITqFTdvhZ_W6pI1M-KKfrwUvYNNWKpv261j2AHi13Lhgq72pO379V7YmEZKnZB8-yFTcuHPVHpQISSUvk98XdLPFi3SFSYA7Lty4tcABaGqBoYaDqYsxYXmD_uFrXG87SxnvE3Vublv5eWL1ch9gqtDVHSc4RADxO3Cu4btLMqKKCM_jydMASivmvbHJq03PybUDKWTjQM3B31gnmj1vAJaq-wG7hsrdwVpvOnswGFnO9Aw/file\'>Syllabus,</a> <a href=\'https://www.bsd.ufl.edu/textadoption/studentview/displayadoption1sect.aspx?SECT=18465&YEAR=23&TERM=8\'>Textbooks</a>'
     },
     {
         className: 'Introduction to Philosophy',
@@ -312,7 +420,7 @@ var array = [
     {
         className: 'Writing in the Law',
         classCode: 'ENC3465',
-        prereqs: 'ENC1101/ENC1102',
+        prereqs: 'ENC1101 or ENC1102',
         professor: 'Creed Greer',
         time: 'MWF 10:40 AM - 11:30 AM',
         classroom: 'AND 0021',
