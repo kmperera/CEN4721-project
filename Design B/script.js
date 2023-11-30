@@ -447,19 +447,21 @@ function showtable(curarray){
 showtable(array);
 
 //function to search for a class
-var newArray = [];
+// var newArray = [];
 
-document.getElementById("search").addEventListener("keyup", function(){
-    var search = this.value.toLowerCase(); // Corrected this line
+// document.getElementById("search").addEventListener("keyup", function(){
+//     var search = this.value.toLowerCase(); // Corrected this line
     
-    //doesn't include time and links to be searchable
-    newArray = array.filter(function(val){
-        return val.className.toLowerCase().includes(search) || 
-               val.classCode.toLowerCase().includes(search) || 
-               val.professor.toLowerCase().includes(search) || 
-               val.classroom.toLowerCase().includes(search) ||
-               val.prereqs.toLowerCase().includes(search);
-    });
+//     //doesn't include time and links to be searchable
+//     newArray = array.filter(function(val){
+//         return val.className.toLowerCase().includes(search) || 
+//                val.classCode.toLowerCase().includes(search) || 
+//                val.professor.toLowerCase().includes(search) || 
+//                val.classroom.toLowerCase().includes(search) ||
+//                val.prereqs.toLowerCase().includes(search);
+//     });
 
-    showtable(newArray);
-});
+//     showtable(newArray);
+// });
+
+//add filter portion
