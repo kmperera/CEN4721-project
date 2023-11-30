@@ -1,0 +1,65 @@
+body {
+    background: #f5f5e1;
+    color: #000000;
+    padding: 0 24px;
+    padding-bottom: 1100px;
+    margin: 0;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 1450px;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 17px Garamond;
+    
+  }
+
+  h1 {
+    position: absolute;
+    color: rgb(28, 50, 128);
+    font: 32px Garamond;
+    left: 25px;
+    top: -80px;
+  }
+
+  h2 {
+    position: absolute;
+    color: rgb(28, 50, 128);
+    font: 50px Garamond;
+    left: 500px;
+    top: -80px;
+  }
+
+  table {
+      width: 1450px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-collapse: collapse;
+  }
+
+  td {
+      table-layout: fixed;
+      padding: 9px;
+      border: 2px solid;
+      border-color: rgb(171, 112, 171);
+      background-color: rgb(225, 200, 240);
+      color: black;
+      font: 17px Garamond;
+  }
+
+  th {
+      position: initial;
+      font: 20px Garamond;
+      padding-top: 20px;
+      top: 100px;
+      background-color: rgb(171, 112, 171);
+  }
+
+
+
+
+
+  
